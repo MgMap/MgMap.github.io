@@ -1,3 +1,95 @@
+var projects = [
+    {
+      "name": "Typing Tutor",
+      "desc": "Typing Game is an engaging and educational game designed to improve your typing skills using assembly language.",
+      "image": "asm_demo.gif",
+      "links": {
+      "code": "https://github.com/MgMap/Typing-Game.git"
+      }
+    },
+    {
+      "name": "Calculator",
+      "desc": "The program is primarily developed in C++, with a (GUI) inspired by the design of an iPhone calculator.",
+      "image": "demo.gif",
+      "links": {
+      "code": "https://github.com/MgMap/Calculator.git"
+      }
+    },
+    {
+      "name": "Flappy Bird Clone",
+      "desc": "This project is a simple clone of the popular game Flappy Bird, implemented in C++ using the SFML",
+      "image": "flappy_demo.gif",
+      "links": {
+        "code": "https://github.com/MgMap/Flappy-Bird.git"
+      }
+    },
+    {
+      "name": "PayRoll-Manager",
+      "desc": "PayRoll Managers is a comprehensive program designed to manage payroll tasks efficiently.",
+      "image": "pay_roll_manager.gif",
+      "links": {
+        "code": "https://github.com/MgMap/PayRoll-Manager.git"
+      }
+    },
+    {
+      "name": "Poker Analysis",
+      "desc": "The Poker Analysis Program is designed to analyze poker hands and calculate the probabilities of various hand rankings. ",
+      "image": "demo_poker.png",
+      "links": {
+        "code": "https://github.com/MgMap/PokerAnalysis.git"
+      }
+    },
+    {
+      "name": "Tic Tac Toe",
+      "desc": "This is a simple Tic Tac Toe game created using SFML (Simple and Fast Multimedia Library) for the user interface.",
+      "image": "TICTACTOE.gif",
+      "links": {
+        "code": "https://github.com/MgMap/TicTacToe_sfml.git"
+      }
+    }
+  ];
+  let skills = [
+      {
+          "name": "React",
+          "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+      },
+      {
+          "name": "NodeJS",
+          "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+      },
+      {
+          "name": "HTML5",
+          "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+      },
+      {
+          "name": "CSS",
+          "icon": "https://img.icons8.com/color/48/000000/css3.png"
+      },
+      {
+          "name": "JavaScript",
+          "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+      },
+      {
+          "name": "Java",
+          "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+      },
+      {
+          "name": "Python",
+          "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+      },
+      {
+          "name": "C++",
+          "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+      },
+      {
+          "name": "Git VCS",
+          "icon": "https://img.icons8.com/color/48/000000/git.png"
+      },
+      {
+          "name": "GitHub",
+          "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+      },
+  ]
 $(document).ready(function () {
 
     $('#menu').click(function () {
@@ -78,98 +170,7 @@ var typed = new Typed(".typing-text", {
     backDelay: 500,
 });
 // <!-- typed js effect ends -->
-var projects = [
-  {
-    "name": "Typing Tutor",
-    "desc": "Typing Game is an engaging and educational game designed to improve your typing skills using assembly language.",
-    "image": "asm_demo.gif",
-    "links": {
-    "code": "https://github.com/MgMap/Typing-Game.git"
-    }
-  },
-  {
-    "name": "Calculator",
-    "desc": "The program is primarily developed in C++, with a (GUI) inspired by the design of an iPhone calculator.",
-    "image": "demo.gif",
-    "links": {
-    "code": "https://github.com/MgMap/Calculator.git"
-    }
-  },
-  {
-    "name": "Flappy Bird Clone",
-    "desc": "This project is a simple clone of the popular game Flappy Bird, implemented in C++ using the SFML",
-    "image": "flappy_demo.gif",
-    "links": {
-      "code": "https://github.com/MgMap/Flappy-Bird.git"
-    }
-  },
-  {
-    "name": "PayRoll-Manager",
-    "desc": "PayRoll Managers is a comprehensive program designed to manage payroll tasks efficiently.",
-    "image": "pay_roll_manager.gif",
-    "links": {
-      "code": "https://github.com/MgMap/PayRoll-Manager.git"
-    }
-  },
-  {
-    "name": "Poker Analysis",
-    "desc": "The Poker Analysis Program is designed to analyze poker hands and calculate the probabilities of various hand rankings. ",
-    "image": "demo_poker.png",
-    "links": {
-      "code": "https://github.com/MgMap/PokerAnalysis.git"
-    }
-  },
-  {
-    "name": "Tic Tac Toe",
-    "desc": "This is a simple Tic Tac Toe game created using SFML (Simple and Fast Multimedia Library) for the user interface.",
-    "image": "TICTACTOE.gif",
-    "links": {
-      "code": "https://github.com/MgMap/TicTacToe_sfml.git"
-    }
-  }
-];
-let skills = [
-    {
-        "name": "React",
-        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
-    },
-    {
-        "name": "NodeJS",
-        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
-    },
-    {
-        "name": "HTML5",
-        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
-    },
-    {
-        "name": "CSS",
-        "icon": "https://img.icons8.com/color/48/000000/css3.png"
-    },
-    {
-        "name": "JavaScript",
-        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-    },
-    {
-        "name": "Java",
-        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
-    },
-    {
-        "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
-    },
-    {
-        "name": "C++",
-        "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
-    },
-    {
-        "name": "Git VCS",
-        "icon": "https://img.icons8.com/color/48/000000/git.png"
-    },
-    {
-        "name": "GitHub",
-        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    },
-]
+
 
 function showSkills(skills) {
     let skillsContainer = document.getElementById("skillsContainer");
