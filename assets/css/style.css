@@ -245,7 +245,7 @@ header .navbar ul li a.active {
 }
 .home .content p span {
   font-size: 2.5rem;
-  color: rgb(148, 8, 8);
+  color: rgb(170, 0, 0);
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -349,7 +349,7 @@ header .navbar ul li a.active {
   
 
   border-radius: 50%;
-  border: 0.1px dashed rgb(0, 0, 0);
+  border: 1px dashed rgb(0, 0, 0);
 
   position: absolute;
   top: 0;
@@ -473,9 +473,7 @@ header .navbar ul li a.active {
 .about .row .content .box-container .box p {
   text-transform: none;
 }
-.about .row .content .box-container .box p span {
-  color: #011aff;
-}
+
 .resumebtn {
   margin-top: 6rem;
 }
@@ -586,7 +584,8 @@ header .navbar ul li a.active {
   font-weight: 500;
   font-family: "Poppins";
   margin-left: 0.5rem;
-  color: rgba(0 ,0 ,0 , 0.0);
+  /* color: rgba(0 ,0 ,0 , 0.0); */
+  color: #fff;
 }
 
 .skills .container .bar:hover .info span{
@@ -1030,6 +1029,7 @@ header .navbar ul li a.active {
 .contact {
   background: #ffffff;
   min-height: 60vh;
+  
 }
 .contact .container {
   max-width: 1050px;
@@ -1252,6 +1252,13 @@ form .button-area {
   color: #000000;
 }
 
+.footer .credit {
+  color: white;
+}
+.footer .credit a
+{
+  color: rgb(219, 107, 14);
+}
 
 @-webkit-keyframes pound {
   to {
