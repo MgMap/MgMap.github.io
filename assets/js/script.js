@@ -1,5 +1,13 @@
 var projects = [
     {
+        "name": "Exam App",
+        "desc": "An App to take coding Tests with a built in compiler and cheat proof",
+        "image": "examappdemo.png",
+        "links": {
+        "code": "https://github.com/MgMap/examApp"
+        }
+      },
+    {
       "name": "Typing Tutor",
       "desc": "Typing Game is an engaging and educational game designed to improve your typing skills using assembly language.",
       "image": "asm_demo.gif",
